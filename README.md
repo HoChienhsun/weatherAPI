@@ -22,4 +22,4 @@
 ## Request data with Authentication
 
 1. I applied basic auth to this API, please include "password=test" "username=test" for your authorization header.
-2. For instance, if you want to query the data about taipei city and startTime is after "2020-07-22 00:00:00", URL request will be like below, the http://localhost:4000/weather/weather?location=臺北市&&startTime=2020-07-22 00:00:00
+2. For instance, if you want to query the data about taipei city and startTime is after "2020-07-22 00:00:00", URL request will be like below, `http://localhost:4000/weather/weather?location=臺北市&&startTime=2020-07-22 00:00:00` 
