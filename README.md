@@ -14,7 +14,11 @@
 | --- | -------- | ---- | ---- | -------- | ------------ | ---------- | ------------------- | ------------------- |
 | 1   | 臺北市   | 27C  | 36C  | 晴時多雲 | 20% 降雨機率 | 舒適至悶熱 | 2020-07-23 06:00:00 | 2020-07-23 18:00:00 |
 
-## Daily report server
+## start server
 
 1. execute `NODE_ENV=production node ./getWeatherData.js` to collect the weather information.
 2. execute `NODE_ENV=production node ./index.js` to run your server.
+
+## Request Authentication
+
+1. I applied basic auth to this API, please include "password=test" "username=test" for your authorization header.
