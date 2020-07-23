@@ -1,0 +1,19 @@
+{
+  "host": "https://opendata.cwb.gov.tw/fileapi/v1/opendataapi",
+  "auth": "CWB-B01B4596-4F5F-413F-A13D-48B29891C149",
+  "city_path": "/api/v1/rest/datastore/F-C0032-001",
+  "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+  "rdsconnection": {
+    "host": "localhost", // "127.0.0.1",
+    "port": "32769", //  "3306",
+    "user": "root",
+    "password": "123", //000000 // 000000
+    "insecureAuth": true
+  },
+  "test": {
+    "database": "test",
+    "weather": "weather"
+  },
+  "password": "test",
+  "username": "test"
+}
